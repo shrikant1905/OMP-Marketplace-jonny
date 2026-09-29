@@ -1,0 +1,41 @@
+:root {
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-secondary: #f1f5f9;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #94a3b8;
+  --primary: #0284c7;
+  --primary-hover: #0369a1;
+  --primary-light: rgba(2, 132, 199, 0.08);
+  --accent: #10b981;
+  --accent-light: rgba(16, 185, 129, 0.1);
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  --card-shadow-hover: 0 12px 30px -4px rgba(2, 132, 199, 0.15);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+}
+
+[data-theme="dark"] {
+  --background: #090d16;
+  --surface: #0f172a;
+  --surface-secondary: #1e293b;
+  --border: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #64748b;
+  --primary: #38bdf8;
+  --primary-hover: #0ea5e9;
+  --primary-light: rgba(56, 189, 248, 0.15);
+  --accent: #34d399;
+  --accent-light: rgba(52, 211, 153, 0.15);
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --card-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+  --card-shadow-hover: 0 12px 35px rgba(56, 189, 248, 0.2);
+}
